@@ -1,0 +1,51 @@
+/* CSS para a área de coleções */
+
+.collections {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .collection-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .collection-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .collection-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .collection-item p {
+    margin-bottom: 20px;
+  }
+  
+  .collection-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collection-link:hover {
+    background-color: #555;
+  }
+  

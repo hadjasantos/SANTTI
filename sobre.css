@@ -1,0 +1,36 @@
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff6f00;
+    margin: 20px auto;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #777;
+  }
+  
