@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelo1.css">
+    <title>Confirmação de Pagamento</title>
+</head>
+<body>
+    <div class="confirmation-container">
+        <h2>Confirmação de Pagamento</h2>
+        <form id="payment-form">
+            <label for="payment-method">Método de Pagamento:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Cartão de Crédito</option>
+                <option value="debit-card">Cartão de Débito</option>
+            </select>
+            
+            <div id="credit-card-details" class="payment-details">
+                <label for="card-number">Número do Cartão:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Número do Cartão">
+                
+                <label for="expiry-date">Data de Validade:</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA">
+                
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV">
+            </div>
+            
+            <label for="delivery-cep">CEP de Entrega:</label>
+            <input type="text" id="delivery-cep" name="delivery-cep" placeholder="Digite o CEP de entrega" required>
+            
+            <button type="button" id="confirm-button">Confirmar Pagamento</button>
+        </form>
+        
+        <div id="confirmation-message" style="display: none;">
+            <h3>Compra Confirmada!</h3>
+            <p>Obrigado por comprar conosco!</p>
+            <button id="back-to-home">Voltar para a Home</button>
+        </div>
+    </div>
+
+    <script src="modelo1.js"></script>
+</body>
+</html>

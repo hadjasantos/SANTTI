@@ -1,9 +1,7 @@
-.logo-contato {
-    display: none;
-}
-
 body {
     background-color: #f2f2f2;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -60,4 +58,8 @@ textarea {
 
 .submit-button:hover {
     background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
 }
